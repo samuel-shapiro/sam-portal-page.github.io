@@ -1,0 +1,87 @@
+/*This box-sizing line makes the width of elements include up to the border*/
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f7ba77;
+    font-family: 'Oxygen', sans-serif;
+  }
+/*This is a container around the whole page*/
+  .container {
+    margin: auto;
+      padding: 4rem;
+    max-width: 70vw;
+    background-color: #FFFBF8;
+    background-image: url('images/main.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  header {
+    padding: 4rem;
+    background: paleturquoise;
+    background-image: url('images/diary.jpg');
+    border: solid;
+    border-width: 1em;
+    color: darkslateblue;
+
+  }
+
+  main {
+    margin: 3rem;
+  }
+
+  article {
+
+    border: solid;
+    border-radius: 3rem;
+    margin: 1em;
+  }
+
+  .intro {
+    background-color: #FFFBF8;
+    padding: 10rem;
+    margin: 3em;
+    background-image: url('images/introimage2.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+  }
+
+  #diaryentry1 {
+    padding: 2rem;
+    background-color: #FFFBF8;
+    background-image: url('images/diary1.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  #diaryentry2 {
+    background-color: #FFFBF8;
+    padding: 2rem;
+
+    background-image: url('images/diary2.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+
+  #diaryentry3 {
+    padding: 10 rem;
+    background-color: #FFFBF8;
+    background-image: url('images/diary3.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  footer {
+    padding: 3rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+  }
+
+  h3 {
+    text-align: center;
+  }
