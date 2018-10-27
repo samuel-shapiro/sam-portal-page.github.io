@@ -1,2 +1,2 @@
-# sam-portal-page.github.io
+# samuel-shapiro.github.io
 DES 117 Portal Page
