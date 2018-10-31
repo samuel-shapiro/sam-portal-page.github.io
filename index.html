@@ -4,20 +4,59 @@
 <head>
   <meta charset="utf-8" />
   <title> DES 117 Portal Page </title>
+  <style>
+
+  .sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    max-width: 80%;
+    margin: auto;
+  }
+
+
+  #projects {
+    grid-row: 1;
+    grid-column: 1 / 2;
+    background-color: red;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  #exercises {
+    grid-row: 1;
+    grid-column: 2 / 3;
+    background-color: green;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  #useful {
+    grid-row: 1;
+    grid-column: 3 / 4;
+    background-color: yellow;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  </style>
 </head>
 
 
 <body>
-  <div id="container">
+  <div class="container">
     <header>
-      <h1>
+      <h1 align="center">
         <img src="images/img_mouseover3.jpg" alt="Grunge Banner" />
         <br>
         Sam Shapiro's Portal
       </h1>
     </header>
 
-    <section>
+    <div class="sections">
+
+    <section id="projects">
       <h2>Major Projects</h2>
       <ol>
         <li><a href="#">Project 1</a></li>
@@ -26,7 +65,7 @@
       </ol>
     </section>
 
-    <section>
+    <section id="exercises">
       <h2>Exercises</h2>
       <ol>
         <li><a href="exercises/exercise-1.html">Exercise 1</a></li>
@@ -45,7 +84,7 @@
       </ol>
     </section>
 
-    <aside>
+    <aside id="useful">
       <h2>Useful Links</h2>
       <ul>
 
@@ -67,8 +106,9 @@
       </ul>
     </aside>
 
+    </div>
 
-    <footer>
+    <footer align="center">
       <p>Sam Shapiro</p>
       <p>Contact: <a href="mailto:&#099;&#111;&#110;&#099;&#101;&#114;&#110;&#105;&#110;&#103;&#112;&#108;&#097;&#110;&#116;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#099;&#111;&#110;&#099;&#101;&#114;&#110;&#105;&#110;&#103;&#112;&#108;&#097;&#110;&#116;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></p>
       <p><a href="http://validator.w3.org/check?url=referer">Valid HTML 5</a></p>
